@@ -6,7 +6,7 @@ This mod is created purely for practice purposes as I learn the basics of moddin
 
 # Installation
 
-This mod should be placed in path: C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Euphorium
+This mod should be placed in path: C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wormax
 
 # References
 https://docs.google.com/document/d/10lVMVRcOPJUNOFet1WKMZxU95eMirW3Moz1qh27RK8U/edit?tab=t.0
