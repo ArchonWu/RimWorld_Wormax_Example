@@ -1,6 +1,6 @@
 # RimWorld_Wormax_Example
 
-Note: This mod is not my original creation. I'm following a tutorial written by DrEnzyme, who made the original Euphorium mod, which can be found on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2548389060&searchtext=euphorium
+Note: This mod is not my original creation. I'm following a tutorial written by DrEnzyme, who made the original Euphorium mod, which can be found on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2972449358&searchtext=wormax
 
 This mod is created purely for practice purposes as I learn the basics of modding in RimWorld 1.5.
 
