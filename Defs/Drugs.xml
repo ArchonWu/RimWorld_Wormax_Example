@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="MakeableDrugBase">
+        <defName>Wormax</defName>
+        <label>Wormax</label>
+        <description>First discovered in 1971 by Belgium pharmaceutical company "NotJanssen Pharmaceutical," this single-dose drug completely cures many varieties of intestinal parasite. Including GUT WORMS. It quickly made a place for itself among the World Health Organisation's list of essential medicines before the collapse of Earth made the WHO redundant.</description>
+        <graphicData>
+            <texPath>Things/Item/Drug/Wormax</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>250</WorkToMake>
+            <MarketValue>50</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+        <costList>
+            <Neutroamine>1</Neutroamine>
+            <Chocolate>1</Chocolate>
+        </costList>
+        <ingestible>
+            <foodType>Processed</foodType>
+            <drugCategory>Medical</drugCategory>
+            <baseIngestTicks>150</baseIngestTicks>
+            <chairSearchRadius>4</chairSearchRadius>
+            <nurseable>true</nurseable>
+            <outcomeDoers>
+                <li Class = "Wormax.IngestionOutcomeDoer_RemoveHediff">
+                    <removeThisThing>GutWorms</removeThisThing>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>1030</listOrder>
+                <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+            </li>
+        </comps>
+        <recipeMaker>
+            <researchPrerequisite>DrugProduction</researchPrerequisite>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <soundWorking>Recipe_Drug</soundWorking>
+        </recipeMaker>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ModMetaData>
+    <name>Wormax</name>
+    <author>archonwu</author>
+    <description>
+        First discovered in 1971 by Belgium pharmaceutical company "NotJanssen Pharmaceutical," this single-dose drug completely cures many varieties of intestinal parasite. Including GUT WORMS. It quickly made a place for itself among the World Health Organisation's list of essential medicines before the collapse of Earth made the WHO redundant.
+    </description>
+    <supportedVersions>
+        <li>1.5</li>
+        <li>1.4</li>
+        <li>1.3</li>
+        <li>1.2</li>
+        <li>1.1</li>
+    </supportedVersions>
+    <packageId>archonwu.wormax</packageId>
+</ModMetaData>
